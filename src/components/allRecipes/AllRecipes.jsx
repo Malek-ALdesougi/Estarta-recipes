@@ -22,7 +22,7 @@ import {
 
 function AllRecipes() {
   const dipatch = useDispatch();
-  const { data, loading, error } = useSelector((state) => state);
+  const { data, loading, error } = useSelector((state) => state.dataReducer);
   const navigate = useNavigate();
 
   useEffect(() => {

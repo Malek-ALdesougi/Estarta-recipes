@@ -5,8 +5,16 @@ import thunk from "redux-thunk";
 
 // Reducers 
 import dataReducer from "./dataReducer/dataReducer";
+import commentsReducer from "./commentsReducer/commentsReducer";
 
-const store = createStore(dataReducer, applyMiddleware(thunk))
+import { combineReducers } from "redux";
+
+const allReducers = combineReducers({
+    dataReducer,
+    commentsReducer
+})
+
+const store = createStore(allReducers, applyMiddleware(thunk))
 
 
 export default store;

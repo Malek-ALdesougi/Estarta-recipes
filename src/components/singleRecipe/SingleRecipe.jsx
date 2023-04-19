@@ -14,7 +14,7 @@ import { useNavigate } from 'react-router';
 function SingleRecipe() {
   const { recipe } = useParams();
   console.log(recipe);
-  const { data } = useSelector((state) => state);
+  const { data } = useSelector((state) => state.dataReducer);
   console.log(data);
 
   const navigate = useNavigate();

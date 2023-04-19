@@ -1,21 +1,44 @@
 //redux
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch} from 'react-redux';
+
+//react
+import React, { useRef, useState } from 'react';
 
 //MDB
-import React from 'react';
-import { MDBTextArea } from 'mdb-react-ui-kit';
+import { MDBBtn, MDBTextArea } from 'mdb-react-ui-kit';
 
 //router dom
 import { useParams } from 'react-router';
+
+//spinner
 import PropagateLoader from 'react-spinners/PropagateLoader';
+import { addComment } from '../../redux/commentsReducer/actions';
 
 function SingleDish() {
   const { recipe, dish } = useParams();
-  const { data, loading } = useSelector((state) => state);
-
+  const { data, loading } = useSelector((state) => state.dataReducer);
   const currentDish = data[recipe]?.find((myDish) => myDish.name === dish);
+  const [userComment, setUserComment] = useState('');
+  const dispatch = useDispatch();
 
-  console.log(currentDish);
+  const {comments} = useSelector(state => state.commentsReducer);
+
+  const dishComments = comments.filter((item) => item.dishName === dish)
+
+
+  // TODO: read the comment for each dish
+  
+
+  console.log(comments);
+  console.log(dish);
+
+  function handelChange(e){
+    setUserComment(e.target.value);
+  }
+
+  function handelAddComment(){
+    dispatch(addComment(currentDish, userComment));
+  }
 
   if (loading) return <PropagateLoader />;
 
@@ -45,6 +68,8 @@ function SingleDish() {
         <h2 className='text-light'>Add a Comment</h2>
         <div className='col-md-6'>
           <MDBTextArea
+            onChange={(e) => handelChange(e)}
+            value={userComment}
             placeholder="Write you comment here"
             label="Comment"
             className="text-light"
@@ -52,11 +77,20 @@ function SingleDish() {
             rows={4}
           />
         </div>
+        <MDBBtn onClick={handelAddComment} className='mt-2'>Add</MDBBtn>
       </div>
 
 
-      <div>
-        Comments section
+      <div className='d-flex flex-column align-items-start p-4'>
+        <div className='bg-primary w-100'>
+
+        <h3 className='text-light'>Users Comments</h3>
+        </div>
+        {dishComments.map((comment) => {
+          return <div>
+            <p className='text-light'>{comment.comment}</p>
+            </div>
+        })}
       </div>
     </div>
   );

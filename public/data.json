@@ -1,6 +1,6 @@
 {
     
-    "Arabic Foods": 
+    "Arabic": 
     [
         {
             "name": "Mansaf",
@@ -45,7 +45,7 @@
             "picture_url": "https://amiraspantry.com/wp-content/uploads/2020/03/musakhan-I.jpg"
         }
     ],
-    "Japanese Foods": [
+    "Japanese": [
         {
             "name": "Sushi",
             "description": "Sushi is a traditional Japanese dish made of vinegar rice that is usually topped with seafood or vegetables. The sushi can be served raw or cooked, and is often accompanied by soy sauce, wasabi, and pickled ginger.",
@@ -85,7 +85,7 @@
             "picture_url": "https://images.pexels.com/photos/14623904/pexels-photo-14623904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
         }
     ],
-    "European Foods": [
+    "European": [
         {
             "name": "Fish and Chips",
             "description": "Fish and chips is a popular British dish that consists of battered and deep-fried fish, typically cod or haddock, and thick-cut fries. It is often served with mushy peas, tartar sauce, and a lemon wedge. Fish and chips has been a staple of British cuisine since the mid-19th century and is still a beloved dish today.",
@@ -138,7 +138,7 @@
             "picture_url": "https://images.pexels.com/photos/1352274/pexels-photo-1352274.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
         }
     ],
-    "Italian Foods": [
+    "Italian": [
         {
             "name": "Pizza Margherita",
             "description": "Pizza Margherita is a classic Neapolitan pizza that originated in Naples, Italy. It is made with a thin crust, tomato sauce, fresh mozzarella cheese, and fresh basil leaves. The pizza is cooked in a wood-fired oven and is often topped with a drizzle of olive oil.",
