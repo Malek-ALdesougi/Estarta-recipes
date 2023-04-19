@@ -2,7 +2,7 @@
 import { useSelector, useDispatch} from 'react-redux';
 
 //react
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 
 //MDB
 import { MDBBtn, MDBTextArea } from 'mdb-react-ui-kit';
@@ -23,7 +23,14 @@ function SingleDish() {
 
   const {comments} = useSelector(state => state.commentsReducer);
 
+  const dishComments = comments.filter((item) => item.dishName === dish)
+
+
+  // TODO: read the comment for each dish
+  
+
   console.log(comments);
+  console.log(dish);
 
   function handelChange(e){
     setUserComment(e.target.value);
@@ -74,8 +81,16 @@ function SingleDish() {
       </div>
 
 
-      <div>
-        Comments section
+      <div className='d-flex flex-column align-items-start p-4'>
+        <div className='bg-primary w-100'>
+
+        <h3 className='text-light'>Users Comments</h3>
+        </div>
+        {dishComments.map((comment) => {
+          return <div>
+            <p className='text-light'>{comment.comment}</p>
+            </div>
+        })}
       </div>
     </div>
   );
