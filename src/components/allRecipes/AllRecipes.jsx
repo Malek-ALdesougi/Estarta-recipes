@@ -41,7 +41,7 @@ function AllRecipes() {
         {data
           ? Object.keys(data)?.map((item, index) => {
               return (
-                <MDBCard onClick={() => handelNavigate(item)}>
+                <MDBCard key={index} onClick={() => handelNavigate(item)}>
                 <img className='p-2 bg-dark ' height={'200px'} width={'300px'} src={'images/' + item + '.jpg'} alt='...' position='top' />
                 <MDBCardBody className='bg-dark'>
                   <MDBCardTitle className='text-light'>{item}</MDBCardTitle>
