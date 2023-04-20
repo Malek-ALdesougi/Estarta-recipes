@@ -1,189 +1,214 @@
 {
-    
-    "Arabic": 
-    [
-        {
-            "name": "Mansaf",
-            "description": "Mansaf is the national dish of Jordan. It is a traditional Arabic dish made of lamb cooked in a sauce of fermented dried yogurt called jameed and served over a bed of rice. Mansaf is typically served during special occasions such as weddings, Eid al-Fitr, and Eid al-Adha.",
-            "ingredients": [
-                "Lamb",
-                "Jameed",
-                "Rice",
-                "Almonds",
-                "Parsley",
-                "Onions",
-                "Garlic",
-                "Spices"
-            ],
-            "picture_url": "https://media.istockphoto.com/id/516951660/photo/jordanian-mansaf.jpg?b=1&s=612x612&w=0&k=20&c=L0Bk5mRv6DwwH1XLwQpqBPxSFhqfYpAx-xKUQYh3wSM="
-        },
-        {
-            "name": "Maqloba",
-            "description": "Maqloba is a popular Palestinian dish that consists of layers of rice, vegetables, and meat cooked together in a pot, then flipped over to create a beautiful and delicious one-pot meal. The name Maqloba translates to 'upside down' in Arabic.",
-            "ingredients": [
-                "Rice",
-                "Eggplant",
-                "Tomatoes",
-                "Onions",
-                "Cauliflower",
-                "Chicken or Meat",
-                "Spices"
-            ],
-            "picture_url": "https://images.pexels.com/photos/7469422/pexels-photo-7469422.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-        },
-        {
-            "name": "Mesakan",
-            "description": "Mesakan is a traditional Lebanese dish that consists of stuffed lamb or beef intestines with a mixture of rice, ground meat, onions, and spices. The stuffed intestines are then cooked in a tomato-based sauce and served with bread or rice.",
-            "ingredients": [
-                "Lamb or Beef Intestines",
-                "Rice",
-                "Ground Meat",
-                "Onions",
-                "Tomatoes",
-                "Spices"
-            ],
-            "picture_url": "https://amiraspantry.com/wp-content/uploads/2020/03/musakhan-I.jpg"
-        }
-    ],
-    "Japanese": [
-        {
-            "name": "Sushi",
-            "description": "Sushi is a traditional Japanese dish made of vinegar rice that is usually topped with seafood or vegetables. The sushi can be served raw or cooked, and is often accompanied by soy sauce, wasabi, and pickled ginger.",
-            "ingredients": [
-                "Sushi Rice",
-                "Seafood or Vegetables",
-                "Soy Sauce",
-                "Wasabi",
-                "Pickled Ginger"
-            ],
-            "picture_url": "https://images.pexels.com/photos/2098085/pexels-photo-2098085.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-        },
-        {
-            "name": "Ramen",
-            "description": "Ramen is a popular Japanese noodle soup that typically consists of wheat noodles, broth, and toppings such as sliced pork, green onions, and bamboo shoots. There are many regional variations of ramen throughout Japan.",
-            "ingredients": [
-                "Wheat Noodles",
-                "Broth",
-                "Pork",
-                "Green Onions",
-                "Bamboo Shoots"
-            ],
-            "picture_url": "https://images.pexels.com/photos/884600/pexels-photo-884600.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-        },
-        {
-            "name": "Tempura",
-            "description": "Tempura is a Japanese dish that consists of seafood or vegetables that are battered and deep-fried until crispy. The batter is usually made with a mixture of flour, water, and egg yolk, and the dish is often served with a dipping sauce made of soy sauce, mirin, and dashi.",
-            "ingredients": [
-                "Seafood or Vegetables",
-                "Flour",
-                "Water",
-                "Egg Yolk",
-                "Soy Sauce",
-                "Mirin",
-                "Dashi"
-            ],
-            "picture_url": "https://images.pexels.com/photos/14623904/pexels-photo-14623904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-        }
-    ],
-    "European": [
-        {
-            "name": "Fish and Chips",
-            "description": "Fish and chips is a popular British dish that consists of battered and deep-fried fish, typically cod or haddock, and thick-cut fries. It is often served with mushy peas, tartar sauce, and a lemon wedge. Fish and chips has been a staple of British cuisine since the mid-19th century and is still a beloved dish today.",
-            "ingredients": [
-                "Cod or Haddock",
-                "Potatoes",
-                "Flour",
-                "Beer",
-                "Eggs",
-                "Milk",
-                "Baking Powder",
-                "Oil",
-                "Salt",
-                "Pepper"
-            ],
-            "picture_url": "https://images.pexels.com/photos/12310564/pexels-photo-12310564.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-        },
-        {
-            "name": "Paella",
-            "description": "Paella is a Spanish rice dish that originated in Valencia. It typically contains saffron, which gives it its distinct yellow color, and a variety of seafood, meat, and vegetables, such as shrimp, chicken, and bell peppers. Paella is often served at family gatherings and celebrations in Spain.",
-            "ingredients": [
-                "Rice",
-                "Saffron",
-                "Chicken",
-                "Shrimp",
-                "Mussels",
-                "Chorizo",
-                "Onion",
-                "Garlic",
-                "Bell Peppers",
-                "Tomatoes",
-                "Chicken Broth",
-                "Olive Oil"
-            ],
-            "picture_url": "https://images.pexels.com/photos/8969237/pexels-photo-8969237.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-        },
-        {
-            "name": "Wiener Schnitzel",
-            "description": "Wiener Schnitzel is a traditional Austrian dish made from breaded and pan-fried veal cutlets. It is typically served with lemon wedges, lingonberry sauce, and a side of potatoes or salad. Wiener Schnitzel is a staple of Austrian cuisine and is considered one of the country's national dishes.",
-            "ingredients": [
-                "Veal",
-                "Breadcrumbs",
-                "Flour",
-                "Eggs",
-                "Milk",
-                "Oil",
-                "Salt",
-                "Pepper"
-            ],
-            "picture_url": "https://images.pexels.com/photos/1352274/pexels-photo-1352274.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-        }
-    ],
-    "Italian": [
-        {
-            "name": "Pizza Margherita",
-            "description": "Pizza Margherita is a classic Neapolitan pizza that originated in Naples, Italy. It is made with a thin crust, tomato sauce, fresh mozzarella cheese, and fresh basil leaves. The pizza is cooked in a wood-fired oven and is often topped with a drizzle of olive oil.",
-            "ingredients": [
-                "Pizza Dough",
-                "Tomato Sauce",
-                "Fresh Mozzarella Cheese",
-                "Fresh Basil Leaves",
-                "Olive Oil",
-                "Salt"
-            ],
-            "picture_url": "https://images.pexels.com/photos/14391207/pexels-photo-14391207.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-        },
-        {
-            "name": "Lasagna",
-            "description": "Lasagna is a classic Italian dish that is made with layers of pasta, meat sauce, and cheese. The pasta is layered with a rich tomato sauce, ground beef or pork, and a mixture of ricotta, mozzarella, and Parmesan cheese. The dish is baked until the cheese is melted and bubbly.",
-            "ingredients": [
-                "Lasagna Noodles",
-                "Ground Beef or Pork",
-                "Tomato Sauce",
-                "Ricotta Cheese",
-                "Mozzarella Cheese",
-                "Parmesan Cheese",
-                "Onion",
-                "Garlic",
-                "Olive Oil",
-                "Salt",
-                "Black Pepper"
-            ],
-            "picture_url": "https://images.pexels.com/photos/5864346/pexels-photo-5864346.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-        },
-        {
-            "name": "Pesto Pasta",
-            "description": "Pesto Pasta is a classic Italian dish that is made with a basil pesto sauce and pasta. The pesto sauce is made with fresh basil leaves, garlic, pine nuts, Parmesan cheese, and olive oil. The sauce is tossed with cooked pasta and can be served hot or cold.",
-            "ingredients": [
-                "Pasta (such as spaghetti or linguine)",
-                "Fresh Basil Leaves",
-                "Garlic",
-                "Pine Nuts",
-                "Parmesan Cheese",
-                "Olive Oil",
-                "Salt",
-                "Black Pepper"
-            ],
-            "picture_url": "https://images.pexels.com/photos/5604809/pexels-photo-5604809.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-        }
-    ]
+  "arabic": [
+    {
+      "id": "1",
+      "name": "Mansaf",
+      "description": "Mansaf is the national dish of Jordan. It is a traditional Arabic dish made of lamb cooked in a sauce of fermented dried yogurt called jameed and served over a bed of rice. Mansaf is typically served during special occasions such as weddings, Eid al-Fitr, and Eid al-Adha.",
+      "ingredients": [
+        "Lamb",
+        "Jameed",
+        "Rice",
+        "Almonds",
+        "Parsley",
+        "Onions",
+        "Garlic",
+        "Spices"
+      ],
+      "picture_url": "https://media.istockphoto.com/id/516951660/photo/jordanian-mansaf.jpg?b=1&s=612x612&w=0&k=20&c=L0Bk5mRv6DwwH1XLwQpqBPxSFhqfYpAx-xKUQYh3wSM="
+    },
+    {
+      "id": "2",
+      "name": "Maqloba",
+      "description": "Maqloba is a popular Palestinian dish that consists of layers of rice, vegetables, and meat cooked together in a pot, then flipped over to create a beautiful and delicious one-pot meal. The name Maqloba translates to 'upside down' in Arabic.",
+      "ingredients": [
+        "Rice",
+        "Eggplant",
+        "Tomatoes",
+        "Onions",
+        "Cauliflower",
+        "Chicken or Meat",
+        "Spices"
+      ],
+      "picture_url": "https://images.pexels.com/photos/7469422/pexels-photo-7469422.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": "3",
+      "name": "Mesakan",
+      "description": "Mesakan is a traditional Lebanese dish that consists of stuffed lamb or beef intestines with a mixture of rice, ground meat, onions, and spices. The stuffed intestines are then cooked in a tomato-based sauce and served with bread or rice.",
+      "ingredients": [
+        "Lamb or Beef Intestines",
+        "Rice",
+        "Ground Meat",
+        "Onions",
+        "Tomatoes",
+        "Spices"
+      ],
+      "picture_url": "https://amiraspantry.com/wp-content/uploads/2020/03/musakhan-I.jpg"
+    }
+  ],
+  "japanese": [
+    {
+      "id": "1",
+      "name": "Sushi",
+      "description": "Sushi is a traditional Japanese dish made of vinegar rice that is usually topped with seafood or vegetables. The sushi can be served raw or cooked, and is often accompanied by soy sauce, wasabi, and pickled ginger.",
+      "ingredients": [
+        "Sushi Rice",
+        "Seafood or Vegetables",
+        "Soy Sauce",
+        "Wasabi",
+        "Pickled Ginger"
+      ],
+      "picture_url": "https://images.pexels.com/photos/2098085/pexels-photo-2098085.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": "2",
+      "name": "Ramen",
+      "description": "Ramen is a popular Japanese noodle soup that typically consists of wheat noodles, broth, and toppings such as sliced pork, green onions, and bamboo shoots. There are many regional variations of ramen throughout Japan.",
+      "ingredients": [
+        "Wheat Noodles",
+        "Broth",
+        "Pork",
+        "Green Onions",
+        "Bamboo Shoots"
+      ],
+      "picture_url": "https://images.pexels.com/photos/884600/pexels-photo-884600.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": "3",
+      "name": "Tempura",
+      "description": "Tempura is a Japanese dish that consists of seafood or vegetables that are battered and deep-fried until crispy. The batter is usually made with a mixture of flour, water, and egg yolk, and the dish is often served with a dipping sauce made of soy sauce, mirin, and dashi.",
+      "ingredients": [
+        "Seafood or Vegetables",
+        "Flour",
+        "Water",
+        "Egg Yolk",
+        "Soy Sauce",
+        "Mirin",
+        "Dashi"
+      ],
+      "picture_url": "https://images.pexels.com/photos/14623904/pexels-photo-14623904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "name": "jsjjs",
+      "description": "this is the test thanks ",
+      "ingredients": [
+        "malek",
+        "malek",
+        "malek",
+        "mlkaj",
+        "kjdfj",
+        "kjdfkdjf",
+        "ajflkdj"
+      ],
+      "picture_url": "https://images.pexels.com/photos/640781/pexels-photo-640781.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "id": "Wf0pPiK"
+    }
+  ],
+  "european": [
+    {
+      "id": "1",
+      "name": "Fish and Chips",
+      "description": "Fish and chips is a popular British dish that consists of battered and deep-fried fish, typically cod or haddock, and thick-cut fries. It is often served with mushy peas, tartar sauce, and a lemon wedge. Fish and chips has been a staple of British cuisine since the mid-19th century and is still a beloved dish today.",
+      "ingredients": [
+        "Cod or Haddock",
+        "Potatoes",
+        "Flour",
+        "Beer",
+        "Eggs",
+        "Milk",
+        "Baking Powder",
+        "Oil",
+        "Salt",
+        "Pepper"
+      ],
+      "picture_url": "https://images.pexels.com/photos/12310564/pexels-photo-12310564.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": "2",
+      "name": "Paella",
+      "description": "Paella is a Spanish rice dish that originated in Valencia. It typically contains saffron, which gives it its distinct yellow color, and a variety of seafood, meat, and vegetables, such as shrimp, chicken, and bell peppers. Paella is often served at family gatherings and celebrations in Spain.",
+      "ingredients": [
+        "Rice",
+        "Saffron",
+        "Chicken",
+        "Shrimp",
+        "Mussels",
+        "Chorizo",
+        "Onion",
+        "Garlic",
+        "Bell Peppers",
+        "Tomatoes",
+        "Chicken Broth",
+        "Olive Oil"
+      ],
+      "picture_url": "https://images.pexels.com/photos/8969237/pexels-photo-8969237.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": "3",
+      "name": "Wiener Schnitzel",
+      "description": "Wiener Schnitzel is a traditional Austrian dish made from breaded and pan-fried veal cutlets. It is typically served with lemon wedges, lingonberry sauce, and a side of potatoes or salad. Wiener Schnitzel is a staple of Austrian cuisine and is considered one of the country's national dishes.",
+      "ingredients": [
+        "Veal",
+        "Breadcrumbs",
+        "Flour",
+        "Eggs",
+        "Milk",
+        "Oil",
+        "Salt",
+        "Pepper"
+      ],
+      "picture_url": "https://images.pexels.com/photos/1352274/pexels-photo-1352274.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    }
+  ],
+  "italian": [
+    {
+      "id": "1",
+      "name": "Pizza Margherita",
+      "description": "Pizza Margherita is a classic Neapolitan pizza that originated in Naples, Italy. It is made with a thin crust, tomato sauce, fresh mozzarella cheese, and fresh basil leaves. The pizza is cooked in a wood-fired oven and is often topped with a drizzle of olive oil.",
+      "ingredients": [
+        "Pizza Dough",
+        "Tomato Sauce",
+        "Fresh Mozzarella Cheese",
+        "Fresh Basil Leaves",
+        "Olive Oil",
+        "Salt"
+      ],
+      "picture_url": "https://images.pexels.com/photos/14391207/pexels-photo-14391207.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": "2",
+      "name": "Lasagna",
+      "description": "Lasagna is a classic Italian dish that is made with layers of pasta, meat sauce, and cheese. The pasta is layered with a rich tomato sauce, ground beef or pork, and a mixture of ricotta, mozzarella, and Parmesan cheese. The dish is baked until the cheese is melted and bubbly.",
+      "ingredients": [
+        "Lasagna Noodles",
+        "Ground Beef or Pork",
+        "Tomato Sauce",
+        "Ricotta Cheese",
+        "Mozzarella Cheese",
+        "Parmesan Cheese",
+        "Onion",
+        "Garlic",
+        "Olive Oil",
+        "Salt",
+        "Black Pepper"
+      ],
+      "picture_url": "https://images.pexels.com/photos/5864346/pexels-photo-5864346.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": "3",
+      "name": "Pesto Pasta",
+      "description": "Pesto Pasta is a classic Italian dish that is made with a basil pesto sauce and pasta. The pesto sauce is made with fresh basil leaves, garlic, pine nuts, Parmesan cheese, and olive oil. The sauce is tossed with cooked pasta and can be served hot or cold.",
+      "ingredients": [
+        "Pasta (such as spaghetti or linguine)",
+        "Fresh Basil Leaves",
+        "Garlic",
+        "Pine Nuts",
+        "Parmesan Cheese",
+        "Olive Oil",
+        "Salt",
+        "Black Pepper"
+      ],
+      "picture_url": "https://images.pexels.com/photos/5604809/pexels-photo-5604809.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    }
+  ]
 }
