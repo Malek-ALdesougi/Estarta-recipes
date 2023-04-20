@@ -54,9 +54,9 @@ function SingleDish() {
         />
       </div>
       <div className="text-start p-4 bg-primary text-light">
-        <h3>Dish Name : {currentDish?.name}</h3>
-        <p>Description : {currentDish?.description}</p>
-        <h4 className="d-block">Ingrediants : </h4>
+        <h3><span className='text-dark'>Dish Name :</span> {currentDish?.name}</h3>
+        <h3 className='text-dark'>Description : </h3><p>{currentDish?.description}</p>
+        <h3 className="d-block text-dark">Ingrediants : </h3>
         <ul className="d-flex flex-start flex-row gap-3 flex-wrap">
           {currentDish?.ingredients.map((item) => {
             return <li className="d-flex flex-start">{item}</li>;
