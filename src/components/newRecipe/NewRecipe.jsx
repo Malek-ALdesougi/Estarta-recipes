@@ -32,8 +32,9 @@ function NewRecipe() {
 
   }
 
-  return <div className="bg-danger col-md-12">
-     <div>
+  return <div className="col-md-12 d-flex justify-content-center">
+     <div className='p-5 w-50 d-flex flex-column gap-4'>
+    <h1 className='text-primary'>Add New Recipe </h1>
         <MDBInput onChange={(e) => setCategory(e.target.value)} name='category' label="Category" type="text"/>
         <MDBInput onChange={(e) => handelNewRecipe(e)} name='name' label="Recipe Name" type="text" />
         <MDBInput onChange={(e) => handelNewRecipe(e)} name='description' label="description" type="text" />
