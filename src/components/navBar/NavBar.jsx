@@ -17,8 +17,16 @@ import {
   MDBCollapse,
 } from 'mdb-react-ui-kit';
 
+//router dom
+import { useNavigate } from 'react-router-dom';
+
 function NavBar() {
   const [showBasic, setShowBasic] = useState(false);
+  const nav = useNavigate();
+
+  function navigate(){
+    nav('add-recipe');
+  }
 
   return (
     <MDBNavbar expand="lg" light dark bgColor="dark">
@@ -41,25 +49,9 @@ function NavBar() {
                 <Link to={'/'}>Home</Link>
               </MDBNavbarLink>
             </MDBNavbarItem>
-            <MDBNavbarItem>
-              <MDBNavbarLink href="#">Link</MDBNavbarLink>
-            </MDBNavbarItem>
-
-            <MDBNavbarItem>
-              <MDBDropdown>
-                <MDBDropdownToggle tag="a" className="nav-link" role="button">
-                  Dropdown
-                </MDBDropdownToggle>
-                <MDBDropdownMenu>
-                  <MDBDropdownItem link>Action</MDBDropdownItem>
-                  <MDBDropdownItem link>Another action</MDBDropdownItem>
-                  <MDBDropdownItem link>Something else here</MDBDropdownItem>
-                </MDBDropdownMenu>
-              </MDBDropdown>
-            </MDBNavbarItem>
           </MDBNavbarNav>
 
-          <MDBBtn className='w-25' color="primary">Add Recipe</MDBBtn>
+          <MDBBtn onClick={navigate} className='w-25' color="primary">Add Recipe</MDBBtn>
         </MDBCollapse>
       </MDBContainer>
     </MDBNavbar>
