@@ -37,7 +37,7 @@ function AllRecipes() {
 
   return (
     <>
-      <div className='col-md-12 p-5 bg-primary gap-5 d-flex justify-content-center flex-wrap'>
+      <div className='col-md-12 p-5 bg-primary gap-5 d-flex justify-content-center flex-wrap mydiv'>
         {data
           ? Object.keys(data)?.map((item, index) => {
               return (

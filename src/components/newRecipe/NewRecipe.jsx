@@ -1,8 +1,10 @@
 //mdb
 import React, { useState } from 'react';
 import { MDBBtn, MDBInput } from 'mdb-react-ui-kit';
+import { useSelector } from 'react-redux';
 
 function NewRecipe() {
+  const {data} = useSelector((state) => state.dataReducer);
   const [category, setCategory] = useState('');
   const [newRecipe, setNewRecipe] = useState({
     "name": '',
@@ -10,6 +12,7 @@ function NewRecipe() {
     "ingredients": [],
     "picture_url": ''
   });
+
 
   function handelNewRecipe(e) {
     setNewRecipe({ ...newRecipe, [e.target.name]: e.target.value });
@@ -35,7 +38,13 @@ function NewRecipe() {
   return <div className="col-md-12 d-flex justify-content-center">
      <div className='p-5 w-50 d-flex flex-column gap-4'>
     <h1 className='text-primary'>Add New Recipe </h1>
-        <MDBInput onChange={(e) => setCategory(e.target.value)} name='category' label="Category" type="text"/>
+        <select className='p-2 square border-secondary rounded' onChange={(e) => setCategory(e.target.value)} name='category' label="Category" type="text">
+          <option value=''></option>
+          {data ? Object.keys(data).map((item, index) => {
+            return <option key={index} value={item}>{item}</option>
+          }) 
+          : ''}
+        </select>
         <MDBInput onChange={(e) => handelNewRecipe(e)} name='name' label="Recipe Name" type="text" />
         <MDBInput onChange={(e) => handelNewRecipe(e)} name='description' label="description" type="text" />
         <MDBInput onChange={(e) => handelIngredients(e)} name='ingredients' label="ingrediants" type="text" />
