@@ -25,7 +25,7 @@ function SingleRecipe() {
 
   return (
 
-    <div style={{height: '100vh'}} className="col-md-12 p-3 bg-primary gap-5 d-flex justify-content-center flex-wrap">
+    <div style={{minHeight: '100vh'}} className="col-md-12 p-3 bg-primary gap-5 d-flex justify-content-center flex-wrap">
         <div className='w-100'>
         <h2>{recipe}</h2>
         </div>
